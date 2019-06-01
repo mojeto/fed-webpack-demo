@@ -6,7 +6,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "webpack --mode=development"
+    "build": "webpack --mode=development",
+    "start": "webpack-dev-server --mode=development"
   },
   "devDependencies": {
     "css-loader": "^2.1.1",
@@ -15,6 +16,7 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.32.2",
-    "webpack-cli": "^3.3.2"
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.5.0"
   }
 }
